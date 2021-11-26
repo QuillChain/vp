@@ -1,4 +1,4 @@
-const CONTRACT_NAME = 'vote.imlang.testnet'
+const CONTRACT_NAME = 'imlangnhe.testnet'
 
 function getConfig(env) {
   switch (env) {
