@@ -46548,7 +46548,7 @@ __exportStar(require("./browser-connect"), exports);
 require("error-polyfill");
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js","./browser-connect":"../node_modules/near-api-js/lib/browser-connect.js","error-polyfill":"../node_modules/error-polyfill/index.js"}],"config.js":[function(require,module,exports) {
-const CONTRACT_NAME = "dev-1637908994969-34036496938607" || 'vchain';
+const CONTRACT_NAME = 'imlangnhe.testnet';
 
 function getConfig(env) {
   switch (env) {
@@ -75776,7 +75776,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42401" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43607" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
